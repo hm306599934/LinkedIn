@@ -23,7 +23,7 @@
     NSArray *mImages = @[@"guid_1", @"guid_2", @"guid_3", @"guid_4"];
     mScrollView.pagingEnabled = YES;
     mScrollView.contentSize = CGSizeMake(SCREEN_SIZE_WIDTH * [mImages count], SCREEN_SIZE_HEIGHT);
-    //TODO:注释
+    
     CGFloat x = 0;
     CGFloat y = 0;
     CGFloat width = SCREEN_SIZE_WIDTH;
